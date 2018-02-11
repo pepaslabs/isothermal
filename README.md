@@ -1,6 +1,6 @@
 # isothermal
 
-An Arduino shield which maintains a Hammond 1590BB at 25C +/-0.01C.
+An Arduino shield which maintains a Hammond 1590BB at 25C +/-0.1C.
 
 - [schematic](kicad/releases/v1/isothermal.pdf)
 - [gerber files](kicad/releases/v1)
