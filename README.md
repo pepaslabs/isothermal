@@ -1,14 +1,14 @@
 # isothermal
 
-An Arduino shield which maintains a Hammond 1590BB at 25C +/-0.1C.
+An Arduino shield which regulates temperature.  Originally, this was used to regulate the temperature of a Hammond 1590BB.
 
-- [schematic](kicad/releases/v1/isothermal.pdf)
-- [gerber files](kicad/releases/v1)
-- [OSHPark link](https://oshpark.com/shared_projects/cw8b4XGm)
+- [schematic](kicad/releases/v1.1/isothermal.pdf)
+- [gerber files](kicad/releases/v1.1)
+- [OSHPark link](https://oshpark.com/shared_projects/9wWvXwMw)
 - [EEVBlog discussion](http://www.eevblog.com/forum/metrology/temperature-stabilised-enclosures-heating-and-or-cooling/msg1407134/#msg1407134)
 
-![](kicad/releases/v1/top.png)
-![](kicad/releases/v1/bottom.png)
+![](kicad/releases/v1.1/top.png)
+![](kicad/releases/v1.1/bottom.png)
 
 The resistor values were chosen to map a 20C to 30C window onto (roughly) 0V to 3.3V.
 
@@ -24,6 +24,7 @@ See also [](https://github.com/cellularmitosis/logs/tree/master/20180126-25c-cha
 - (1) 2N3904 TO-92 NPN transistor.
   - Almost any TO-92 transistor should work here.
   - [Tayda](https://www.taydaelectronics.com/t-transistors/2n-series/2n3904-npn-general-propose-transistor.html).
+  - The footprint is for a TO-220, in case you need to use a bigger transistor.
 - (2) 10k thermistors.
   - I use Vishay [NTCLG100E2103JB](http://www.vishay.com/docs/29050/ntclg100.pdf) which are about $1 each from [Digi-key](https://www.digikey.com/product-detail/en/vishay-bc-components/NTCLG100E2103JB/BC2531-ND/773999).
   - You could also get away with [cheap epoxy bead thermistors](https://www.taydaelectronics.com/thermistors/10k-ohm-ntc-thermistor-5mm.html), though if the Beta is different you'll need to calibrate the gain of your controller.
