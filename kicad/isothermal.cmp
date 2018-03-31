@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sun 28 Jan 2018 10:06:04 AM CST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sat 31 Mar 2018 01:05:23 AM CDT
 
 BeginCmp
 TimeStamp = /5A6AB241;
@@ -52,13 +52,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5A6ABCEC;
 Reference = C40;
-ValeurCmp = 0.1uF;
+ValeurCmp = 10nF;
 IdModule  = CERCAP_15_059B_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6AB544;
-Reference = C41;
+Reference = C44;
 ValeurCmp = 0.1uF;
 IdModule  = CERCAP_15_059B_0805;
 EndCmp
@@ -68,6 +68,13 @@ TimeStamp = /5A6D938F;
 Reference = C60;
 ValeurCmp = 10uF;
 IdModule  = ELCAP_10_20_V_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5ABF070C;
+Reference = D30;
+ValeurCmp = ZENER;
+IdModule  = DIODE_SS_059A_03_PL;
 EndCmp
 
 BeginCmp
@@ -137,126 +144,133 @@ BeginCmp
 TimeStamp = /5A6AB61E;
 Reference = Q1;
 ValeurCmp = 2N3904;
-IdModule  = TO-92_Q_EBC_059Bo_PL;
+IdModule  = TO-220_V_069A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6D8240;
 Reference = R11;
 ValeurCmp = 10k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6AB323;
 Reference = R13;
-ValeurCmp = 10k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+ValeurCmp = 33k;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6AB17C;
 Reference = R14;
-ValeurCmp = 100k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+ValeurCmp = 120k;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6AB329;
 Reference = R15;
-ValeurCmp = 22k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+ValeurCmp = 33k;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5A6AB4CF;
+TimeStamp = /5A6E2774;
 Reference = R16;
-ValeurCmp = 6.8k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+ValeurCmp = 0R;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6D85F1;
 Reference = R21;
 ValeurCmp = 10k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6D85A7;
 Reference = R23;
-ValeurCmp = 10k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+ValeurCmp = 33k;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6D8564;
 Reference = R24;
-ValeurCmp = 100k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+ValeurCmp = 120k;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6D85AD;
 Reference = R25;
-ValeurCmp = 22k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+ValeurCmp = 33k;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5A6D85DA;
+TimeStamp = /5A6E2917;
 Reference = R26;
-ValeurCmp = 6.8k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+ValeurCmp = 0R;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6ABA45;
 Reference = R30;
 ValeurCmp = 100R;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5ABF0590;
+Reference = R31;
+ValeurCmp = 330R;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6AB611;
 Reference = R40;
 ValeurCmp = 1k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5ABF0C09;
+Reference = R41;
+ValeurCmp = 0R;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5ABF0C0F;
+Reference = R42;
+ValeurCmp = 10k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5ABF0FD0;
+Reference = R43;
+ValeurCmp = 1k;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6AB53E;
-Reference = R41;
+Reference = R44;
 ValeurCmp = 100k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5A6D86ED;
-Reference = R50;
-ValeurCmp = 100k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5A6D86F3;
-Reference = R51;
-ValeurCmp = 100k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5A6D86D3;
-Reference = R52;
-ValeurCmp = 100k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A6DE1F2;
 Reference = R80;
 ValeurCmp = 470;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
@@ -333,7 +347,7 @@ BeginCmp
 TimeStamp = /5A6D8229;
 Reference = TH10;
 ValeurCmp = 10k;
-IdModule  = R_AXIAL_0W25_059A_05_PL;
+IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
