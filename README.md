@@ -19,6 +19,8 @@ See also [](https://github.com/cellularmitosis/logs/tree/master/20180126-25c-cha
 
 ## Bill of Materials (BOM)
 
+FIXME: update the description of the resistors for v1.1.
+
 - (1) LM324 op amp, DIP14.
   - [Tayda](https://www.taydaelectronics.com/lm324n-lm324-324-low-power-quad-op-amp-ic.html).
 - (1) 2N3904 TO-92 NPN transistor.
