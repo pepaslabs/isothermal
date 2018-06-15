@@ -1,0 +1,4 @@
+- label which row of resistors is for which thermistor
+- label the thermistor ports
+- label which zener resistor goes to which rail
+- can you fit a 5th screw terminal?
