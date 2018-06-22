@@ -2,13 +2,14 @@
 
 An Arduino shield which regulates temperature.  Originally, this was used to regulate the temperature of a Hammond 1590BB.
 
-- [schematic](kicad/releases/v1.1/isothermal.pdf)
-- [gerber files](kicad/releases/v1.1)
+- [schematic](kicad/releases/v1.2/isothermal.pdf)
+- [gerber files](kicad/releases/v1.2)
 - [OSHPark link](https://oshpark.com/shared_projects/9wWvXwMw)
 - [EEVBlog discussion](http://www.eevblog.com/forum/metrology/temperature-stabilised-enclosures-heating-and-or-cooling/msg1407134/#msg1407134)
 
-![](kicad/releases/v1.1/top.png)
-![](kicad/releases/v1.1/bottom.png)
+![](kicad/releases/v1.2/top.png)
+
+![](kicad/releases/v1.2/bottom.png)
 
 The resistor values were chosen to map a 20C to 30C window onto (roughly) 0V to 3.3V.
 
@@ -19,7 +20,7 @@ See also [](https://github.com/cellularmitosis/logs/tree/master/20180126-25c-cha
 
 ## Bill of Materials (BOM)
 
-FIXME: update the description of the resistors for v1.1.
+FIXME: update this BOM for v1.2.
 
 - (1) LM324 op amp, DIP14.
   - [Tayda](https://www.taydaelectronics.com/lm324n-lm324-324-low-power-quad-op-amp-ic.html).
